@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/education_school"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.84"
+
+            android:text="WPI"
+            android:textSize="20sp"/>
+
+
+        <ImageButton
+
+            android:id="@+id/education_btn"
+            android:layout_height="24dp"
+            android:layout_width="24dp"
+            android:alpha="0.7"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/ic_mode_edit_black_18dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/education_major"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <TextView
+        android:id="@+id/education_course"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+
+</LinearLayout>

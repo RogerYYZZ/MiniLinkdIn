@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ic_account_box_amber_a700_18dp"/>
+    </FrameLayout>>
+
+
+    <TextView
+        android:id="@+id/basic_info_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_margin="20dp"
+        android:text="Name"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/basic_info_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_margin="20dp"
+        android:text="Email"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/basic_info_address"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:text="Address"
+        android:textSize="20sp"/>
+
+    <ImageButton
+
+        android:id="@+id/basic_btn"
+        android:layout_height="24dp"
+        android:layout_width="24dp"
+        android:alpha="0.7"
+        android:layout_margin="20dp"
+        android:layout_gravity="bottom|end"
+        android:background="?attr/selectableItemBackground"
+        android:src="@drawable/ic_mode_edit_black_18dp"/>
+
+</LinearLayout>
